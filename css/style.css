@@ -1,0 +1,26 @@
+#titulo{
+    color: rgb(255,55,89);
+    font-size: 16Px;
+}
+
+#paragrafo{
+    color: blue;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#botao{
+    background: greenyellow;
+}
+#outro-botao{
+    background: chocolate;
+}
+/*UNIDADES DE MEDIDAS
+
+ABSOLUTAS 
+PX (PIXELS)
+IN (INCHES/POLEGADAS)
+CM / CENTIMETROS MOLIMETROS
+
+RELATIVAS
+*/

@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+input{
+    border:1px solid chocolate;
+    color: blueviolet;
+}
+input::placeholder{
+    color: rgb(75, 9, 136);
+}
+p{
+    color: blue;
+}
+p::first-line{
+    color: red;
+}
+a{
+    color: brown;
+}
+a::before{
+    content: "⚡";
+}
+a::after{
+    content: "🚀";
+}

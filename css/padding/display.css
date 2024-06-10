@@ -1,0 +1,46 @@
+.box{
+    background: purple;
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+   display: inline;
+}
+.box-2{
+    background: plum;
+}
+.box-3{
+    background: paleturquoise;
+}
+
+
+
+/*display 
+
+- BLOCK
+- INLINE
+- 
+
+
+- BLOCK
+
+Vem como padrão:div, section, p, h1, h2, h3, ul, li article...
+
+- Oculpa 100% da largura do elemento pai 
+-sempre ocupa toda a sua linha 
+-altua definida height e width
+-podemos definir valores de margin
+
+-INLINE
+
+vem como padrão a, span, b, i... 
+
+- Elementos em linha 
+- não permite alterar height e width
+- Não podemos difinir valores de margin top e bottom
+- Ganha comportamento de uma palavra
+
+- INLINE-BLOCK
+
+- Elementos em linha, porém com característica do display block
+- Altura e largura podem ser alterada.
+*/

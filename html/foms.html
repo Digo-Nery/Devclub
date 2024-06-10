@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!--get aparece no url
+post não aprece por baixos dos panos
+enctype="multipart/form-data" ele avisa para o servido que estar mandando dados-->
+
+    <form accept="" method="get" enctype="multipart/form-data">
+      <h1>Digite seu Endereço</h1>
+      <label>
+        Rua:
+        <input type="text" name="Rua" autocomplete="street-address" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Numero:
+        <input type="number" name="Numero" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Email:
+        <input type="email" name="Email" />
+      </label>
+      <br />
+      <br />
+      <label>
+        arquivo:
+        <input type="file" name="arquivos" />
+      </label>
+      <br />
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit ">Enviar aqui</button>
+    </form>
+  </body>
+</html>
