@@ -13,3 +13,9 @@ const texto3 = `textos com a crase `/*chamdos de Template literals ou temolate s
 console.log (texto1)
 console.log (texto2)
 console.log (texto3)
+
+/*template string*/ 
+
+const myAge = 23
+const mystring = ` Minha idade é ? ${myAge}`
+console.log(mystring)
